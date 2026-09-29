@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, rgb(57, 145, 172)
+        );
+    }
+
+    section {
+        width: 90vw;
+        max-width: 900px;
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 40%;
+        height: 452px;
+        display: block;
+    }
+
+    #cabeça {
+        float: right;
+        width: 60%;
+        height: 100%;
+        margin: auto;
+    }
+
+    form {
+        float: right;
+        display: block;
+        width: 60%;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}

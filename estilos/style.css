@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+:root {
+    color: #49a09d;
+    color: #5f2c82;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+    
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    margin: auto;
+    top: 50%;
+    position: relative;
+    transform: translate(0%, -50%);
+    text-align: left;
+    padding: 00px;
+    color: black;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    transition: height 0.3s, width 0.3s;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+#imagem {
+    background: #5f2c82 url(../imagens/pexels-pavel-kuznetsov-2150677419-31491358.jpg);
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+#cabeça {
+    padding: 10px;
+    display: block;
+}
+
+#form {
+    padding: 10px;
+    text-align: center;
+}
+
+#email {
+    border-color: #622d85;
+}
+
+#Entrar {
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 7px;
+    background-color: #9c44d6;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 1.05em;
+}
+
+#Entrar:hover {
+    background-color: #622d85;
+    border-color: #8a10db;
+}
+
+#Esqueci {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(198, 34, 231);
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: rgb(62, 18, 92);
+    font-weight: 400;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+#Esqueci:hover {
+    background-color: #cfa4e9;
+}
+
+.campo {
+    background-color: #622d85;
+    margin: 5px 0px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+    width: calc(100%-50px);
+    padding: 5px;
+    background-color: #b9e9e7;
+}
+
+.campo > i {
+    color: white;
+    padding-top: 7px;
+    height: 40px;
+    width: 40px;
+    text-align: left;
+}
