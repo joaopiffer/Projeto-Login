@@ -113,23 +113,30 @@ h1 {
     background-color: #622d85;
     margin: 5px 0px;
     height: 40px;
-    border-radius: 5px;
-    text-align: center;
+    border-radius: 10px;
+    text-align: right;
 }
 
-input {
-    border-radius: 5px;
-    height: 100%;
+.campo > input {
+    display: inline;
+    border-radius: 10px;
+    height: 101%;
     border: none;
-    width: calc(100%-50px);
+    width: calc(100% - 40px);
     padding: 5px;
     background-color: #b9e9e7;
+    transform: translateY(0px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 .campo > i {
+    display: inline;
     color: white;
-    padding-top: 7px;
     height: 40px;
     width: 40px;
-    text-align: left;
+    padding: 5px;
+    transform: translateY(5px);
 }
